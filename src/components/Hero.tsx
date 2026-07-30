@@ -8,7 +8,7 @@ export default function Hero() {
       id="top"
       className="mx-auto flex min-h-[calc(100dvh-65px)] max-w-5xl flex-col justify-center px-4 py-14 sm:px-8"
     >
-      <div className="flex flex-col-reverse gap-10 sm:flex-row sm:items-center sm:justify-between">
+      <div className="flex flex-col-reverse gap-10 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <p className="font-serif text-3xl leading-tight text-accent-strong sm:text-4xl">
             Tax &amp; Advisory for Growing Businesses
