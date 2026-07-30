@@ -35,18 +35,10 @@ export default function Hero() {
           jdeguz@hawaii.edu
         </a>
       </div>
-      <dl className="mt-10 grid grid-cols-1 gap-x-6 gap-y-2 text-sm text-foreground/60 sm:grid-cols-3">
+      <dl className="mt-10 grid grid-cols-1 gap-x-6 gap-y-2 text-sm text-foreground/60 sm:grid-cols-2">
         <div>
           <dt className="sr-only">Location</dt>
           <dd>91-3446 Maohiohi Loop, Ewa Beach, HI 96706</dd>
-        </div>
-        <div>
-          <dt className="sr-only">Phone</dt>
-          <dd>
-            <a href="tel:+18083931594" className="hover:text-accent">
-              (808) 393-1594
-            </a>
-          </dd>
         </div>
         <div>
           <dt className="sr-only">GPA</dt>
