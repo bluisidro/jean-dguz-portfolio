@@ -22,10 +22,11 @@ export default function Hero() {
         </a>
         <a
           href="/resume.pdf"
-          download
+          target="_blank"
+          rel="noopener noreferrer"
           className="rounded-full border border-border px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:border-accent hover:text-accent"
         >
-          Download resume
+          View resume
         </a>
         <a
           href="mailto:jdeguz@hawaii.edu"
