@@ -1,12 +1,26 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section id="top" className="mx-auto max-w-5xl px-4 pb-16 pt-14 sm:px-8 sm:pt-20">
-      <p className="text-xs font-semibold uppercase tracking-[0.2em] text-accent-strong">
-        Accounting &amp; Tax Professional
-      </p>
-      <h1 className="mt-3 font-serif text-4xl leading-tight text-foreground sm:text-5xl">
-        Jean Marinel De Guzman
-      </h1>
+      <div className="flex items-center gap-5">
+        <Image
+          src="/avatar.png"
+          alt="Portrait of Jean Marinel De Guzman"
+          width={88}
+          height={88}
+          priority
+          className="h-20 w-20 rounded-full object-cover ring-2 ring-border sm:h-24 sm:w-24"
+        />
+        <div>
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-accent-strong">
+            Accounting &amp; Tax Professional
+          </p>
+          <h1 className="mt-1 font-serif text-4xl leading-tight text-foreground sm:text-5xl">
+            Jean Marinel De Guzman
+          </h1>
+        </div>
+      </div>
       <p className="mt-5 max-w-2xl text-base leading-relaxed text-foreground/75 sm:text-lg">
         Detail-oriented accounting professional with strong knowledge of
         basic accounting principles, federal taxation, and financial
