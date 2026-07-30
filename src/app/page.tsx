@@ -5,6 +5,7 @@ import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import Skills from "@/components/Skills";
 import Contact from "@/components/Contact";
+import BackToTop from "@/components/BackToTop";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
         <Hero />
 
         <Section id="about" eyebrow="Summary" title="Professional Summary">
-          <p className="max-w-2xl text-sm leading-relaxed text-foreground/75 sm:text-base">
+          <p className="text-sm leading-relaxed text-foreground/75 sm:text-base">
             Detail-oriented and driven accounting professional with strong
             knowledge of basic accounting principles, federal taxation, and
             financial reporting. Proven ability to work independently and
@@ -44,6 +45,7 @@ export default function Home() {
       <footer className="mx-auto w-full max-w-5xl px-4 py-8 text-center text-xs text-foreground/40 sm:px-8">
         &copy; {new Date().getFullYear()} Jean Marinel De Guzman. All rights reserved.
       </footer>
+      <BackToTop />
     </>
   );
 }
