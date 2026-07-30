@@ -27,7 +27,7 @@ export default function Hero() {
               href="mailto:jdeguz@hawaii.edu"
               className="rounded-full bg-navy px-5 py-2.5 text-sm font-medium text-background transition-opacity hover:opacity-90"
             >
-              Start the conversation
+              Let&apos;s discuss it
             </a>
             <a
               href="/resume.pdf"
@@ -40,16 +40,25 @@ export default function Hero() {
           </div>
         </div>
         <div className="flex shrink-0 flex-col items-center gap-4 self-center sm:self-auto">
-          <div className="flex items-center justify-center rounded-full bg-accent/15 p-4 sm:p-5">
+          <div className="relative flex h-72 w-72 items-center justify-center sm:h-104 sm:w-104">
+            <div
+              className="absolute h-56 w-56 rotate-12 bg-accent/25 sm:h-80 sm:w-80"
+              style={{ clipPath: "polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)" }}
+            />
+            <div
+              className="absolute h-56 w-56 rotate-[-10deg] bg-accent/45 sm:h-80 sm:w-80"
+              style={{ clipPath: "polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)" }}
+            />
             <Image
               src="/avatar.png"
               alt="Portrait of Jean Marinel De Guzman"
-              width={176}
-              height={176}
+              width={320}
+              height={320}
               priority
               draggable={false}
               onContextMenu={(e) => e.preventDefault()}
-              className="h-32 w-32 select-none rounded-full object-cover ring-4 ring-accent/30 sm:h-40 sm:w-40"
+              className="relative h-48 w-48 select-none object-cover sm:h-64 sm:w-64"
+              style={{ clipPath: "polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)" }}
             />
           </div>
           <dl className="text-sm">
