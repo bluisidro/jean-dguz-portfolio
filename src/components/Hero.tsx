@@ -38,24 +38,28 @@ export default function Hero() {
               View resume
             </a>
           </div>
-          <dl className="mt-10 text-sm text-foreground/60">
+        </div>
+        <div className="flex shrink-0 flex-col items-center gap-4 self-center sm:self-auto">
+          <div className="flex items-center justify-center rounded-full bg-accent/15 p-4 sm:p-5">
+            <Image
+              src="/avatar.png"
+              alt="Portrait of Jean Marinel De Guzman"
+              width={176}
+              height={176}
+              priority
+              draggable={false}
+              onContextMenu={(e) => e.preventDefault()}
+              className="h-32 w-32 select-none rounded-full object-cover ring-4 ring-accent/30 sm:h-40 sm:w-40"
+            />
+          </div>
+          <dl className="text-sm">
             <div>
               <dt className="sr-only">GPA</dt>
-              <dd>Cumulative GPA: 3.89 / 4.00</dd>
+              <dd className="font-medium text-accent-strong">
+                Cumulative GPA: 3.89 / 4.00
+              </dd>
             </div>
           </dl>
-        </div>
-        <div className="flex shrink-0 items-center justify-center self-center rounded-full bg-accent/15 p-4 sm:self-auto sm:p-5">
-          <Image
-            src="/avatar.png"
-            alt="Portrait of Jean Marinel De Guzman"
-            width={176}
-            height={176}
-            priority
-            draggable={false}
-            onContextMenu={(e) => e.preventDefault()}
-            className="h-32 w-32 select-none rounded-full object-cover ring-4 ring-accent/30 sm:h-40 sm:w-40"
-          />
         </div>
       </div>
     </section>
