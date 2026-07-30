@@ -7,10 +7,10 @@ export default function Hero() {
         <Image
           src="/avatar.png"
           alt="Portrait of Jean Marinel De Guzman"
-          width={88}
-          height={88}
+          width={72}
+          height={72}
           priority
-          className="h-20 w-20 rounded-full object-cover ring-2 ring-border sm:h-24 sm:w-24"
+          className="h-16 w-16 rounded-full object-cover shadow-sm ring-1 ring-border ring-offset-4 ring-offset-background saturate-[0.85] sm:h-[72px] sm:w-[72px]"
         />
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-accent-strong">
