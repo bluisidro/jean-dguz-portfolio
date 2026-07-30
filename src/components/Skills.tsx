@@ -14,7 +14,13 @@ const groups = [
   },
   {
     label: "Technical & Software",
-    items: ["Microsoft Office Applications", "Digital Tools for Information Systems"],
+    items: [
+      "Microsoft Office Applications",
+      "Digital Tools for Information Systems",
+      "QuickBooks",
+      "ProSeries",
+      "CCH Axcess",
+    ],
   },
   {
     label: "Soft Skills",
