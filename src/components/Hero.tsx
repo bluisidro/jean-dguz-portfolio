@@ -42,24 +42,28 @@ export default function Hero() {
         <div className="flex shrink-0 flex-col items-center gap-4 self-center sm:self-auto">
           <div className="relative flex h-72 w-72 items-center justify-center sm:h-104 sm:w-104">
             <div
-              className="absolute h-56 w-56 rotate-12 bg-accent/25 sm:h-80 sm:w-80"
+              className="absolute h-48 w-48 rotate-12 bg-accent/25 sm:h-64 sm:w-64"
               style={{ clipPath: "polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)" }}
             />
             <div
-              className="absolute h-56 w-56 rotate-[-10deg] bg-accent/45 sm:h-80 sm:w-80"
+              className="absolute h-48 w-48 rotate-[-10deg] bg-accent/45 sm:h-64 sm:w-64"
               style={{ clipPath: "polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)" }}
             />
-            <Image
-              src="/avatar.png"
-              alt="Portrait of Jean Marinel De Guzman"
-              width={320}
-              height={320}
-              priority
-              draggable={false}
-              onContextMenu={(e) => e.preventDefault()}
-              className="relative h-48 w-48 select-none object-cover sm:h-64 sm:w-64"
+            <div
+              className="relative h-48 w-48 overflow-hidden sm:h-64 sm:w-64"
               style={{ clipPath: "polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)" }}
-            />
+            >
+              <Image
+                src="/avatar.png"
+                alt="Portrait of Jean Marinel De Guzman"
+                width={320}
+                height={320}
+                priority
+                draggable={false}
+                onContextMenu={(e) => e.preventDefault()}
+                className="h-full w-full scale-90 select-none object-cover"
+              />
+            </div>
           </div>
           <dl className="text-sm">
             <div>
