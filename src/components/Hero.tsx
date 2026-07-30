@@ -50,7 +50,7 @@ export default function Hero() {
               style={{ clipPath: "polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)" }}
             />
             <div
-              className="relative h-48 w-48 overflow-hidden sm:h-64 sm:w-64"
+              className="relative h-48 w-48 overflow-hidden bg-[#e3e6d5] sm:h-64 sm:w-64"
               style={{ clipPath: "polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)" }}
             >
               <Image
@@ -61,7 +61,7 @@ export default function Hero() {
                 priority
                 draggable={false}
                 onContextMenu={(e) => e.preventDefault()}
-                className="h-full w-full scale-90 select-none object-cover"
+                className="h-full w-full scale-75 select-none rounded-full object-cover"
               />
             </div>
           </div>
