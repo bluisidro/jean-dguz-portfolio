@@ -42,7 +42,7 @@ export default function Hero() {
             Experience with Roanne Matsuura CPA, Inc. &amp; KMH, LLP
           </p>
         </div>
-        <div className="flex shrink-0 flex-col items-center gap-4 self-center sm:self-auto">
+        <div className="flex shrink-0 flex-col items-center self-center sm:self-auto">
           <div className="relative flex h-72 w-72 items-center justify-center sm:h-104 sm:w-104">
             <div
               className="absolute h-48 w-48 rotate-12 bg-accent/25 sm:h-64 sm:w-64"
@@ -68,7 +68,7 @@ export default function Hero() {
               />
             </div>
           </div>
-          <dl className="text-sm">
+          <dl className="-mt-6 text-sm sm:-mt-10">
             <div>
               <dt className="sr-only">GPA</dt>
               <dd className="font-medium text-accent-strong">
