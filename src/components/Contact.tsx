@@ -1,10 +1,5 @@
 const items = [
   { label: "Email", value: "jdeguz@hawaii.edu", href: "mailto:jdeguz@hawaii.edu" },
-  {
-    label: "Location",
-    value: "91-3446 Maohiohi Loop, Ewa Beach, HI 96706",
-    href: undefined,
-  },
 ];
 
 export default function Contact() {

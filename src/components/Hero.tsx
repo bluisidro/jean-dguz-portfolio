@@ -29,7 +29,7 @@ export default function Hero() {
       </p>
       <div className="mt-8 flex flex-wrap items-center gap-4">
         <a
-          href="#contact"
+          href="mailto:jdeguz@hawaii.edu"
           className="rounded-full bg-navy px-5 py-2.5 text-sm font-medium text-background transition-opacity hover:opacity-90"
         >
           Get in touch
@@ -49,11 +49,7 @@ export default function Hero() {
           jdeguz@hawaii.edu
         </a>
       </div>
-      <dl className="mt-10 grid grid-cols-1 gap-x-6 gap-y-2 text-sm text-foreground/60 sm:grid-cols-2">
-        <div>
-          <dt className="sr-only">Location</dt>
-          <dd>91-3446 Maohiohi Loop, Ewa Beach, HI 96706</dd>
-        </div>
+      <dl className="mt-10 text-sm text-foreground/60">
         <div>
           <dt className="sr-only">GPA</dt>
           <dd>Cumulative GPA: 3.89 / 4.00</dd>
