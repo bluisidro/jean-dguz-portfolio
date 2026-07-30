@@ -1,7 +1,3 @@
-const items = [
-  { label: "Email", value: "jdeguz@hawaii.edu", href: "mailto:jdeguz@hawaii.edu" },
-];
-
 export default function Contact() {
   return (
     <div className="rounded-2xl bg-navy px-6 py-10 text-background sm:px-10">
@@ -10,22 +6,12 @@ export default function Contact() {
         Open to accounting, tax, and advisory opportunities across Hawai&#8216;i
         and beyond.
       </p>
-      <ul className="mt-6 space-y-3 text-sm">
-        {items.map((item) => (
-          <li key={item.label} className="flex gap-3">
-            <span className="w-20 shrink-0 text-background/50">
-              {item.label}
-            </span>
-            {item.href ? (
-              <a href={item.href} className="underline underline-offset-4 hover:text-accent">
-                {item.value}
-              </a>
-            ) : (
-              <span>{item.value}</span>
-            )}
-          </li>
-        ))}
-      </ul>
+      <a
+        href="mailto:jdeguz@hawaii.edu"
+        className="mt-6 inline-block rounded-full bg-background px-5 py-2.5 text-sm font-medium text-navy transition-opacity hover:opacity-90"
+      >
+        Send an email
+      </a>
     </div>
   );
 }

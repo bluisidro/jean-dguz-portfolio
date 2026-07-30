@@ -42,12 +42,6 @@ export default function Hero() {
         >
           View resume
         </a>
-        <a
-          href="mailto:jdeguz@hawaii.edu"
-          className="text-sm font-medium text-accent-strong underline underline-offset-4"
-        >
-          jdeguz@hawaii.edu
-        </a>
       </div>
       <dl className="mt-10 text-sm text-foreground/60">
         <div>
