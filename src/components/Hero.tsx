@@ -78,26 +78,6 @@ export default function Hero() {
           </dl>
         </div>
       </div>
-      <a
-        href="#about"
-        className="mt-12 flex flex-col items-center gap-2 self-center text-xs uppercase tracking-[0.2em] text-foreground/40 transition-colors hover:text-accent"
-      >
-        Scroll to explore
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth={1.5}
-          className="h-4 w-4 animate-bounce"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-          />
-        </svg>
-      </a>
     </section>
   );
 }
