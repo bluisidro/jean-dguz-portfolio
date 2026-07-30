@@ -6,6 +6,9 @@ import Education from "@/components/Education";
 import Skills from "@/components/Skills";
 import Contact from "@/components/Contact";
 import BackToTop from "@/components/BackToTop";
+import ThemeToggle from "@/components/ThemeToggle";
+import FloatingEmail from "@/components/FloatingEmail";
+import FloatingResume from "@/components/FloatingResume";
 
 export default function Home() {
   return (
@@ -46,6 +49,9 @@ export default function Home() {
         &copy; {new Date().getFullYear()} Jean Marinel De Guzman. All rights reserved.
       </footer>
       <BackToTop />
+      <ThemeToggle />
+      <FloatingResume />
+      <FloatingEmail />
     </>
   );
 }

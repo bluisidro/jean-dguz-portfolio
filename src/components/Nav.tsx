@@ -30,7 +30,7 @@ export default function Nav() {
         </ul>
         <a
           href="#contact"
-          className="sm:hidden text-sm text-accent-strong underline underline-offset-4"
+          className="text-sm text-accent-strong underline underline-offset-4 sm:hidden"
         >
           Contact
         </a>

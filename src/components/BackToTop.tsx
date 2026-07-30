@@ -23,7 +23,7 @@ export default function BackToTop() {
       type="button"
       onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
       aria-label="Back to top"
-      className={`fixed bottom-6 right-6 z-50 flex h-11 w-11 items-center justify-center rounded-full bg-navy text-background shadow-lg transition-opacity duration-300 hover:opacity-90 ${
+      className={`fixed bottom-52 right-6 z-50 flex h-11 w-11 items-center justify-center rounded-full bg-navy text-background shadow-lg transition-opacity duration-300 hover:opacity-90 ${
         visible ? "opacity-100" : "pointer-events-none opacity-0"
       }`}
     >
